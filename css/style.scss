@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    padding: 10px 0;
+    text-align: center;
+    background-color: black;
+    h1 {
+        color: white;
+        font-size: 26px;
+        margin: 0;
+    }
+}
+
+main {
+    #form {
+        h1 {
+            text-align: center;
+            font-size: 26px;
+        }
+    }
+    #draw {
+        h1 {
+            text-align: center;
+            font-size: 26px;
+        }
+        .new-num-wrapper {
+            display: flex;
+            justify-content: center;
+            min-height: 80px;
+            .new-num {
+                border: 2px solid black;
+                border-radius: 5px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding: 10px;
+                width: 80px;
+                height: 80px;
+                background-color: rgb(118, 199, 118);
+                p {
+                    margin: 0;
+                    font-size: 30px;
+                }
+            }
+        }
+        .text {
+            p {
+                margin: 0;
+                margin-bottom: 5px;
+                font-size: 20px;
+            }
+        }
+        .numbers {
+            display: flex;
+            flex-wrap: wrap;
+            .number {
+                border: 2px solid black;
+                border-radius: 5px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding: 10px;
+                width: 40px;
+                height: 40px;
+                margin-right: 10px;
+                margin-bottom: 10px;
+                p {
+                    margin: 0;
+                    font-size: 30px;
+                }
+            }
+        }
+    }
+    #cards {
+        h1 {
+            text-align: center;
+            font-size: 26px;
+        }
+        .card-item {
+            background: rgb(32, 26, 26);
+            padding: 10px;
+            border-radius: 20px;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            .name {
+                text-align: center;
+                p {
+                    margin: 0;
+                    font-size: 20px;
+                    font-weight: bold;
+                    color: #fff;
+                }
+            }
+            .numbers {
+                display: flex;
+                margin-top: 10px;
+                .number {
+                    border: 2px solid yellow;
+                    border-radius: 5px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    padding: 10px;
+                    width: 40px;
+                    height: 40px;
+                    margin-right: 10px;
+                    background: #fff;
+                    font-size: 20px;
+                    &.active{
+                        background: lime;
+                    }
+                    p{
+                        margin: 0;
+                        font-weight: bold;
+                    }
+                }
+            }
+        }
+    }
+}

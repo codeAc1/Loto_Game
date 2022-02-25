@@ -1,0 +1,172 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+header {
+  padding: 10px 0;
+  text-align: center;
+  background-color: black;
+}
+
+header h1 {
+  color: white;
+  font-size: 26px;
+  margin: 0;
+}
+
+main #form h1 {
+  text-align: center;
+  font-size: 26px;
+}
+
+main #draw h1 {
+  text-align: center;
+  font-size: 26px;
+}
+
+main #draw .new-num-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  min-height: 80px;
+}
+
+main #draw .new-num-wrapper .new-num {
+  border: 2px solid black;
+  border-radius: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10px;
+  width: 80px;
+  height: 80px;
+  background-color: #76c776;
+}
+
+main #draw .new-num-wrapper .new-num p {
+  margin: 0;
+  font-size: 30px;
+}
+
+main #draw .text p {
+  margin: 0;
+  margin-bottom: 5px;
+  font-size: 20px;
+}
+
+main #draw .numbers {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+main #draw .numbers .number {
+  border: 2px solid black;
+  border-radius: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10px;
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+main #draw .numbers .number p {
+  margin: 0;
+  font-size: 30px;
+}
+
+main #cards h1 {
+  text-align: center;
+  font-size: 26px;
+}
+
+main #cards .card-item {
+  background: #201a1a;
+  padding: 10px;
+  border-radius: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+main #cards .card-item .name {
+  text-align: center;
+}
+
+main #cards .card-item .name p {
+  margin: 0;
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff;
+}
+
+main #cards .card-item .numbers {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 10px;
+}
+
+main #cards .card-item .numbers .number {
+  border: 2px solid yellow;
+  border-radius: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10px;
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+  background: #fff;
+  font-size: 20px;
+}
+
+main #cards .card-item .numbers .number.active {
+  background: lime;
+}
+
+main #cards .card-item .numbers .number p {
+  margin: 0;
+  font-weight: bold;
+}
+/*# sourceMappingURL=style.css.map */
